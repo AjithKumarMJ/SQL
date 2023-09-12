@@ -59,4 +59,33 @@ password is test
 
  with this command we can find all 
 
+# Generic SQL Injection Payloads can try it on website link itself 
+
+# create dictionary attack using crunch 
+first we need to create an dictionary 
+ 
+ crunch  1 8  julian@;  -o /root/Desktop/julian.text
+
+ -o is the output  and 3 to 8 means it will skip the two password like ju like that
+
+# using sqli app 
+
+open and copy the link of the website  like this 
+
+http://testphp.vulnweb.com/artists.php?artist=1
+
+if not use means
+
+ use this 
+
+-1
+
+-1'
+
+1'
+
+and use this if there link is not working
+
+after click the table and click load we can see all the details
+
 
