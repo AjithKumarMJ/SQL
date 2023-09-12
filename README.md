@@ -1,4 +1,4 @@
-# sample
+# sqlmap tool
  first go the vulweb website
 
 and choose sql and copy the linked and paste in chrome
